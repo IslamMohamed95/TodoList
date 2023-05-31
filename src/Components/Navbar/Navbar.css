@@ -1,0 +1,37 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav > div {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  z-index: 5;
+}
+.nav > div h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: darkorange;
+  text-shadow: 2px 2px 6px black;
+  font-size: 25px;
+}
+.nav > div h1::first-letter,
+.nav > div h1 span:last-child {
+  font-size: 20px;
+}
+.nav > div h1 span:first-child {
+  color: white;
+}
+.nav img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  filter: blur(2px) grayscale(40%);
+  z-index: 0;
+}

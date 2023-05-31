@@ -1,0 +1,19 @@
+footer {
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 100%;
+}
+footer p:last-child {
+  color: rgb(77, 77, 77);
+  margin-top: 3%;
+  width: 100%;
+  text-align: center;
+
+  font-weight: bold;
+}
+footer p:last-child::first-letter,
+footer p:last-child span {
+  color: darkorange;
+  text-shadow: 1px 1px 5px black;
+}

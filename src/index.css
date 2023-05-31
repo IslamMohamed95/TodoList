@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.fa-check {
+  color: rgb(160, 160, 160);
+  margin-left: 2%;
+}
+
+@media (min-width: 320px) {
+  .App {
+    align-items: flex-start !important;
+  }
+
+  .nav {
+    height: 22%;
+  }
+  .nav img {
+    height: 100%;
+  }
+  .intro h1,
+  .intro {
+    display: none !important;
+  }
+  .intro .fa-sun {
+    display: block !important;
+  }
+  .home {
+    width: 95%;
+    transform: translateY(9em);
+  }
+
+  .search {
+    padding: 10px;
+  }
+  .search input {
+    width: 70%;
+  }
+  .search button {
+    width: 30%;
+  }
+  .search input,
+  .search button {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .options .option label {
+    font-size: 13px;
+  }
+  /*--- part2---*/
+  .part2 .todosHolder {
+    max-height: 45vh;
+  }
+  .part2 ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 0 12% 0;
+  }
+  .part2 ul li {
+    color: white;
+  }
+  .part2 .container {
+    position: relative;
+  }
+  .part2 .container > div {
+    display: flex;
+    align-items: center;
+  }
+  .part2 div div > div:first-child span,
+  .part2 label,
+  .part2 p {
+    color: white;
+  }
+  .part2 label {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .part2 .fa-trash-can {
+    font-size: 14px;
+    color: darkred;
+  }
+  .part2 div div > div:nth-child(2) span {
+    width: 10px;
+    height: 10px;
+  }
+  .part2 p {
+    font-size: 13px;
+  }
+  footer p:last-child {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 375px) {
+  .nav {
+    height: 25%;
+  }
+  .home {
+    transform: translateY(10em);
+  }
+  .part2 .todosHolder {
+    max-height: 40vh;
+  }
+}
+
+@media (min-width: 425px) {
+  .nav {
+    height: 30%;
+  }
+  .home {
+    transform: translateY(12em);
+  }
+  .nav > div h1 {
+    font-size: 30px !important;
+  }
+  .nav > div h1::first-letter,
+  .nav > div h1 span:last-child {
+    font-size: 25px !important;
+  }
+  .part2 .todosHolder {
+    max-height: 35vh;
+  }
+}
+@media (min-width: 768px) {
+  .home {
+    width: 70%;
+    transform: translateY(8em);
+  }
+  .nav {
+    height: 30% !important;
+  }
+
+  .nav > div,
+  .intro .fa-sun,
+  .intro i {
+    display: none !important;
+  }
+  .intro h1 {
+    font-size: 30px !important;
+  }
+  .intro > div {
+    width: 30px;
+    height: 30px;
+  }
+  .intro span {
+    width: 13px;
+    height: 13px;
+  }
+  .intro h1,
+  .intro {
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .search {
+    padding: 15px;
+  }
+  .search input {
+    width: 80%;
+  }
+  .search button {
+    width: 20%;
+  }
+  .search input,
+  .search button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  .options .option label {
+    font-size: 16px;
+  }
+  .part2 .todosHolder {
+    max-height: 29vh;
+  }
+  .part2 .total {
+    font-size: 15px !important;
+  }
+  .part2 ul {
+    margin: 1% 0 4% 0;
+  }
+  .part2 ul li {
+    font-size: 17px !important;
+    padding-bottom: 1% !important;
+  }
+  footer p:last-child {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1024px) {
+  .nav img {
+    height: 55vh;
+  }
+  .home {
+    width: 55%;
+    transform: translateY(8em);
+  }
+  .part2 label {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .part2 p {
+    font-size: 15px;
+  }
+  .part2 .fa-trash-can {
+    font-size: 17px;
+  }
+  .part2 .todosHolder {
+    max-height: 30vh;
+  }
+}
+@media (min-width: 1440px) {
+  .home {
+    width: 50%;
+    transform: translateY(6.5em);
+  }
+  .intro h1 {
+    font-size: 45px !important;
+  }
+  .intro > div {
+    width: 35px;
+    height: 35px;
+  }
+  .intro span {
+    width: 15px;
+    height: 15px;
+  }
+  .intro h1,
+  .intro {
+    display: flex !important;
+  }
+  .search {
+    padding: 15px;
+  }
+  .search input {
+    width: 75%;
+  }
+  .search button {
+    width: 25%;
+  }
+  .search input,
+  .search button {
+    padding: 10px;
+    font-size: 18px;
+  }
+  .options .option label {
+    font-size: 18px;
+  }
+  .part2 label {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .part2 i {
+    font-size: 20px;
+  }
+  .part2 .todosHolder {
+    max-height: 25vh;
+  }
+}
+@media (min-width: 1800px) {
+  .home {
+    width: 40%;
+    transform: translateY(8em);
+  }
+  .part2 .todosHolder {
+    max-height: 31vh;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
