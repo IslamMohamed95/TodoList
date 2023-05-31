@@ -71,7 +71,7 @@
 }
 .search button {
   border-radius: 15px;
-
+  color: black !important;
   border: none;
   background-image: linear-gradient(to right, darkorange, white);
 }
