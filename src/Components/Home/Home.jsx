@@ -97,7 +97,7 @@ function Home() {
   return (
     <section className="home">
       <div className="part1">
-        <div className="intro">
+        <div className="intro" data-aos="zoom-in" data-aos-duration="1000">
           <h1>T&nbsp;O&nbsp;D&nbsp;O</h1>
           <div className="arrangeIcon">
             <span></span>
