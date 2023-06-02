@@ -33,7 +33,7 @@ function Home() {
     });
     document.querySelectorAll(".fa-trash-can").forEach((t, ind) => {
       if (String(ind) === e.target.id) {
-        t.classList.add("singleDelete");
+        t.classList.toggle("singleDelete");
       } else {
         t.classList.remove("singleDelete");
       }
